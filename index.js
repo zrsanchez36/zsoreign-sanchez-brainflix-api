@@ -6,10 +6,20 @@ const uuid = require('uuid');
 const fs = require('fs');
 const path = require('path');
 
+const { CORS_ORIGIN } = process.env;
+
+
+require('dotenv')
 app.use(bodyParser.json());
 app.use('/images', express.static(path.join(__dirname, 'images')));
-
+app.use(cors( { origin: CORS_ORIGIN}));
 let videos = require('./videos.json'); // Import your videos data from a JSON file
+
+
+
+
+
+
 
 // GET /videos
 app.get('/videos', (req, res) => {
