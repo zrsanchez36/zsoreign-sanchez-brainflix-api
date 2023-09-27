@@ -4,12 +4,28 @@
         "title": "Sample Video",
         "description": "This is a sample video",
         "channel": "Channel",
-        "thumbnail": "/public/images/AdobeStock_1.jpeg"
+        "thumbnail": "/public/images/AdobeStock_1.jpeg",
+        "comments": []
     },
     {
         "id": "42779df4-ed2c-4fb4-a949-20687bcda390",
         "title": "Test Video",
         "description": "This is a test",
-        "image": "/images/default-image.jpg"
+        "image": "/images/default-image.jpg",
+        "comments": []
+    },
+    {
+        "id": "1ainjruutd1j",
+        "title": "Become A Travel Pro In One Easy Lesson",
+        "channel": "Todd Welch",
+        "image": "https://i.imgur.com/5qyCZrD.jpg",
+        "comments": []
+    },
+    {
+        "id": "0507f093-b172-401b-84a3-86f78a7adb68",
+        "title": "Test Video",
+        "description": "This is my second test",
+        "image": "/images/default-image.jpg",
+        "comments": []
     }
 ]
