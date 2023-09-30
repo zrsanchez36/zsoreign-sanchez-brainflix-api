@@ -27,5 +27,12 @@
         "description": "This is my second test",
         "image": "/images/default-image.jpg",
         "comments": []
+    },
+    {
+        "id": "ed111e6e-5175-4926-a353-c0224dafb3d7",
+        "title": "Test Video 2",
+        "description": "This is a second test video testing ID creation",
+        "image": "/images/default-image.jpg",
+        "comments": []
     }
 ]
